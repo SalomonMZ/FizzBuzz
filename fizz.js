@@ -4,17 +4,17 @@ for(var i = 1; i <= numeros; i++)
 {
   if(esDivisible(i,3))
   {
-    document.write("Fizz");
+    console.log("Fizz");
   }
   if(esDivisible(i,5))
   {
-    document.write("Buzz");
+    console.log("Buzz");
   }
   if(!esDivisible(i,3) && !esDivisible(i,5))
   {
-    document.write(i);
+    console.log(i);
   }
-  document.write("<br>");
+  console.log("\n");
 }
 
 function esDivisible(num, divisor)
